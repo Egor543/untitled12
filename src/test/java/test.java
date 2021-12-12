@@ -37,7 +37,7 @@ class test {
         int a = 2;
         int b = 3;
         int expResult = 5;
-        int result = Game.MyMath.add(a,b);
+        int result = Utils.add(a,b);
         assertEquals(expResult, result);
     }
 
