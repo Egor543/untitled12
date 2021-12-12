@@ -8,7 +8,7 @@ class test {
     void testTile() {
         Tile game = new Tile(0, 0, 0);
         game.setCanCombine(false);
-        assertEquals(game.isCanCombine(), false);
+        assertEquals(false, game.isCanCombine());
     }
 
     @Test
