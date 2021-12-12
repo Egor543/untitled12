@@ -1,0 +1,56 @@
+
+o	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(à¥”Š
+h
+java:S3008"RRename this field "SPACING" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Òñå
+l
+java:S3008"VRename this field "BOARD_WIDTH" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ª§·
+r
+java:S3008"WRename this field "BOARD_HEIGHT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒËÍîÿÿÿÿÿ
+—
+java:S1186„"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(İ¼õA
+K
+java:S1117m"5Rename "x" which hides the field declared at line 20.(Ö¢˜
+K
+java:S1117n"5Rename "y" which hides the field declared at line 21.(­èÕˆ
+4
+java:S2119€"Save and re-use this "Random".(¼İÅf
+Z
+java:S1117™">Rename "finalBoard" which hides the field declared at line 19.(ãàÌıÿÿÿÿ
+D	java:S108¿")Either remove or fill this block of code.(ƒİĞ¨øÿÿÿÿ
+Q
+java:S1117È"5Rename "x" which hides the field declared at line 20.(ë™¨üÿÿÿÿ
+Q
+java:S1117É"5Rename "y" which hides the field declared at line 21.(î¼Ü²ùÿÿÿÿ
+i
+java:S3776˜"RRefactor this method to reduce its Cognitive Complexity from 51 to the 15 allowed.(‡ã
+d	java:S100ç"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(”Ó‘š
+i
+java:S3776ç"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(”Ó‘š
+n
+java:S3776ÿ"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(ßá¢üÿÿÿÿ
+B
+java:S1068"'Remove this unused "won" private field.(Üç¼¶üÿÿÿÿ
+D
+java:S1068".Remove this unused "finalBoard" private field.(îÖäâ
+@
+java:S1144z"*Remove this unused private "spawn" method.(º–ü÷
+m
+java:S1104"WMake BOARD_WIDTH a static final constant or non-public and provide accessors if needed.(ª§·
+s
+java:S1104"XMake BOARD_HEIGHT a static final constant or non-public and provide accessors if needed.(ƒËÍîÿÿÿÿÿ
+G
+java:S1444"1Make this "public static BOARD_WIDTH" field final(ª§·
+M
+java:S1444"2Make this "public static BOARD_HEIGHT" field final(ƒËÍîÿÿÿÿÿ
+3
+java:S1700"Rename field "gameBoard"(Ç™Ê¼øÿÿÿÿ
+^
+java:S2095:"HUse try-with-resources or close this "FileWriter" in a "finally" clause.(Å×Ôµ
+g
+java:S2095["LUse try-with-resources or close this "BufferedWriter" in a "finally" clause.(Á€ıûûÿÿÿÿ
+^
+java:S2095Z"HUse try-with-resources or close this "FileWriter" in a "finally" clause.(ù‡êŒ
+a
+java:S2095M"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(÷©Œs
+g
+java:S2095;"LUse try-with-resources or close this "BufferedWriter" in a "finally" clause.(Á€ıûûÿÿÿÿ
