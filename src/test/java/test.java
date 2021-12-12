@@ -1,39 +1,39 @@
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.Assert.assertEquals;
 
-class test {
+public class test {
 
     @Test
-    void testTile() {
+    public void testTile() {
         Tile game = new Tile(0, 0, 0);
         game.setCanCombine(false);
         assertEquals(false, game.isCanCombine());
     }
 
     @Test
-    void testValue() {
+    public void testValue() {
         Tile game = new Tile(0, 0, 0);
         game.setValue(0);
         assertEquals(0, game.getValue());
     }
 
     @Test
-    void testX() {
+    public void testX() {
         Tile game = new Tile(0, 0, 0);
         game.setX(0);
         assertEquals(0, game.getX());
     }
 
     @Test
-    void testY() {
+    public  void testY() {
         Tile game = new Tile(0, 0, 0);
         game.setY(0);
         assertEquals(0, game.getY());
     }
 
     @Test
-    void testAdd(){
+    public void testAdd(){
         int a = 2;
         int b = 3;
         int expResult = 5;
