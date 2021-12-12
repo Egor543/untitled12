@@ -32,4 +32,13 @@ public class test {
         assertEquals(game.getY(), 0);
     }
 
+    @Test
+    public void testAdd(){
+        int a = 2;
+        int b = 3;
+        int expResult = 5;
+        int result = Game.MyMath.add(a,b);
+        assertEquals(expResult, result);
+    }
+
 }
