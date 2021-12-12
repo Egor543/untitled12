@@ -2,7 +2,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class test {
+class test {
 
     @Test
     void testTile() {
@@ -15,25 +15,25 @@ public class test {
     void testValue() {
         Tile game = new Tile(0, 0, 0);
         game.setValue(0);
-        assertEquals(game.getValue(), 0);
+        assertEquals(0, game.getValue());
     }
 
     @Test
     void testX() {
         Tile game = new Tile(0, 0, 0);
         game.setX(0);
-        assertEquals(game.getX(), 0);
+        assertEquals(0, game.getX());
     }
 
     @Test
     void testY() {
         Tile game = new Tile(0, 0, 0);
         game.setY(0);
-        assertEquals(game.getY(), 0);
+        assertEquals(0, game.getY());
     }
 
     @Test
-    public void testAdd(){
+    void testAdd(){
         int a = 2;
         int b = 3;
         int expResult = 5;
